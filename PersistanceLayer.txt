@@ -1,0 +1,18 @@
+Bu katman veri iþlemlerini üstlenen katmandýr. Ef core sqlserver dapper, hibernate gibi veri katmanýný ilgilendiren teknolojilere ait kodlarý bu katmanda kullanýcaðýz. Sql server kullanýrkne orm tool olarak efcore ile geliþtirme yapacaðýz. 
+Ef ile alakalý DbContext sýnýflarý Configuration, Migrations gibi tüm iþlemler bu katman altýnda ypaýlýp api projesine baðlanacaktýr.
+Bu katman class lib projesi olarak acýlýcak olup sadece icerisinde class bulunacaktýr.
+
+//Kullanýlýcak olan alt yapý teknolojisine ait efcore adýnda bir klasor actýk baþka veri merekezli teknolojiler ile baðlantý kurulacaðý düþünülerek bu klasorleme yapýldý.
+// Dapper klasorü icinden ise dapper ile verilerin sql bazlý sorgulanmasýna dair bir kaç ornke yapacaðýz.
+//Bazý select sorgularýnda dapper kullanacagýz.
+//insert update delete islemelerinde efcore tercih edeceðiz.
+
+//Mongodb isse kullanýcýlar yani sistemedeki kullanýcýl4arýn bilgilerini ise json formatýnda mongoDb olan bir teknoloji ile saklayacaðýz.
+
+//Efcore ile dapper ayný db olaacak. (sql server)
+//User bilgileri icin ise document db yani relational olmayan mongoDb kullanýlacak.
+
+//Configurations: Efcore projesi altunda configurations icerisinde entitylerin database tarafýnda uzunluk pk, fk, unique key zorunlu olma vs gibi database tarafýndaki tablo ayaralarýný relations gibi tablo ayarlarýný yapacaðýz. Migrations: Entitylerin ile ilgili migrations islemleri
+//COntext: Uygulamayaý (Order Context , ProductCatalogContext gibi farklý contextlere ayýrýp ayný database üzerinden calýsma saðlayacaðýz)
+
+//Repositories : Ýlgili entityler üzerinde veri cekme operasyonlarý icin olucak.
