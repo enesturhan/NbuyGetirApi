@@ -5,15 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Logging\" />
     <Folder Include="Autharization\" />
-    <Folder Include="Authentication\" />
     <Folder Include="Caching\" />
-    <Folder Include="Exceptions\" />
     <Folder Include="Services\" />
     <Folder Include="Notifications\" />
-    <Folder Include="Sessions\" />
-    <Folder Include="Validators\" />
   </ItemGroup>
 
 </Project>
