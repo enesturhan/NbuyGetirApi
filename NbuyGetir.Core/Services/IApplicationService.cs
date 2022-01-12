@@ -10,10 +10,10 @@ namespace NbuyGetir.Core.Services
 /// 
 /// </summary>
 /// <typeparam name="TRequest">input model</typeparam>
-/// <typeparam name="TResultDto">view model</typeparam>
-    public interface IApplicationService<TRequest,TResultDto>
+/// <typeparam name="TResponseDto">view model</typeparam>
+    public interface IApplicationService<TRequest,TResponseDto>
     {
-        Task<TResultDto> HandleAsync(TResultDto dto);
+        Task<TResponseDto> HandleAsync(TResponseDto dto);
 
 
     }
