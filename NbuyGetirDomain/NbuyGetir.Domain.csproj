@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CommonLayer\NbuyGetir.Common.csproj" />
     <ProjectReference Include="..\NbuyGetir.Core\NbuyGetir.Core.csproj" />
   </ItemGroup>
 

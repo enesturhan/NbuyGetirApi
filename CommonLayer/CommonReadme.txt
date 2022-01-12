@@ -1,0 +1,1 @@
+﻿/Her uygulamada kullanabilecegim yarıdmdcı helper yapıları icerisinde barındıran herhangi bir teknoloji kaygısı olmayan butun katmanalr ile haberlesebilen (cross cuttung layer) kaymandır . Gnelde icersinde string datetime configuraton gibi bir cok yardımcı method ve snıf barındırır.

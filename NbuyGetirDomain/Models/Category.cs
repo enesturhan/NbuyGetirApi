@@ -22,7 +22,7 @@ namespace NbuyGetir.Domain.Models
         private List<Product> _products = new();
         public IReadOnlyCollection<Product> Products => _products;
 
-        public Category(string name, bool isTopLevel) 
+        public Category(string name, bool isTopLevel=false) 
         {
             SetName(name);
             IsTopLevel = isTopLevel;
@@ -31,7 +31,7 @@ namespace NbuyGetir.Domain.Models
         {
             if (string.IsNullOrEmpty(name))
             {
-                throw new Exception("kategori bos gecilemez")
+                throw new Exception("kategori bos gecilemez");
             }
         }
         public void AddSubCategory(Category category)

@@ -50,14 +50,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{5120
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{80B25091-B760-43E4-BF70-B3BC90DE2ADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbuyGetir.API", "NbuyGetir.API\NbuyGetir.API.csproj", "{36CB3127-D900-44F8-9677-892A9D4625CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbuyGetir.API", "NbuyGetir.API\NbuyGetir.API.csproj", "{36CB3127-D900-44F8-9677-892A9D4625CD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BA8DED72-1F20-43E7-9E00-5D32F6270075}"
 	ProjectSection(SolutionItems) = preProject
 		CoreReadmeFile.txt = CoreReadmeFile.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbuyGetir.Core", "NbuyGetir.Core\NbuyGetir.Core.csproj", "{FC8EB0C1-4ECD-4D02-84E2-2C8EEE61D29B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbuyGetir.Core", "NbuyGetir.Core\NbuyGetir.Core.csproj", "{FC8EB0C1-4ECD-4D02-84E2-2C8EEE61D29B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{F86D8C9D-A503-46F7-8B49-4C590E3A3A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbuyGetir.Common", "CommonLayer\NbuyGetir.Common.csproj", "{F9158826-0C8F-4784-AAD3-0CC6F8E98017}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +93,10 @@ Global
 		{FC8EB0C1-4ECD-4D02-84E2-2C8EEE61D29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC8EB0C1-4ECD-4D02-84E2-2C8EEE61D29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC8EB0C1-4ECD-4D02-84E2-2C8EEE61D29B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9158826-0C8F-4784-AAD3-0CC6F8E98017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9158826-0C8F-4784-AAD3-0CC6F8E98017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9158826-0C8F-4784-AAD3-0CC6F8E98017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9158826-0C8F-4784-AAD3-0CC6F8E98017}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,6 +115,7 @@ Global
 		{80B25091-B760-43E4-BF70-B3BC90DE2ADC} = {6F9176CB-0093-4B14-9B39-6E33F7671AD7}
 		{36CB3127-D900-44F8-9677-892A9D4625CD} = {BD96F235-D9B8-43CD-8FD8-3CF40939E85D}
 		{FC8EB0C1-4ECD-4D02-84E2-2C8EEE61D29B} = {BA8DED72-1F20-43E7-9E00-5D32F6270075}
+		{F9158826-0C8F-4784-AAD3-0CC6F8E98017} = {F86D8C9D-A503-46F7-8B49-4C590E3A3A2C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ADCA2DC3-A09B-40AF-AAE8-C3269D060F6E}
